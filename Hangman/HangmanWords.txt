@@ -843,7 +843,7 @@ minute
 miss
 mistake
 mistreat
-mith
+myth
 mixed
 mixing
 moment
@@ -884,7 +884,7 @@ near
 nearly
 neat
 neatly
-necessaril
+necessarily
 necessary
 necklace
 need
@@ -1149,8 +1149,6 @@ service
 seven
 several
 sewing
-sex
-sexual
 sexy
 shall
 shallow
