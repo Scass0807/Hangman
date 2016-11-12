@@ -16,6 +16,7 @@ public class GameMain
 	{
 		super();
 	}
+	
 	static GameMain hangmanMain = new GameMain();
 	/**
 	 * allow user to start the game
@@ -23,6 +24,12 @@ public class GameMain
 	public void start()
 	{
 		hangman = new Game("Hangman");
+	}
+	/**
+	 * create a frame for the game
+	 */
+	public void createFrame()
+	{
 		hangmanFrame = new GameFrame(hangmanMain);
 	}
 	/**
@@ -33,9 +40,9 @@ public class GameMain
 	{
 		if(choice.equals("yes"))
 		{
-			hangmanFrame.setVisible(false);
-			hangmanFrame.dispose();
-			start();
+			hangmanMain.start();
+			hangmanFrame.resetFrame();
+		
 		}
 		else if(choice.equals("no"))
 		{
@@ -59,6 +66,7 @@ public class GameMain
 	public static void main(String[] args) 
 	{
 		hangmanMain.start();
+		hangmanMain.createFrame();
 	}
 
 }
