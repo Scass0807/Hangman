@@ -3,3 +3,7 @@
 .settings/
 bin/
 Hangman.jar
+.DS_Store
+.git/
+.metadata/
+.recommenders/
