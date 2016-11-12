@@ -1,9 +1,9 @@
 .classpath
 .project
+.DS_Store
 .settings/
 bin/
-Hangman.jar
-.DS_Store
 .git/
 .metadata/
 .recommenders/
+Hangman.jar
